@@ -33,14 +33,14 @@
     text-align: center ;
   }
 
-nav ul{
+.navigation-list {
     display: flex; 
     justify-content: space-around;
     align-items: flex-end;
     color: transparent;
 }
 
-nav a {
+.hyperlink {
   color: white;
   font-family: "Dancing Script" ;
   display: block; 
@@ -51,7 +51,7 @@ nav a {
   font-size: 35px;
 }
 
-.selects{
+.selects {
   display: flex; 
   padding-left: 75px;
   padding-right: 75px;
@@ -60,7 +60,7 @@ nav a {
   
 }
 
-select, .price{
+select, .price {
   font-size: 35px;
   background-color: white;
   color: peru;
@@ -69,19 +69,7 @@ select, .price{
 
 }
 
-/*.arrow{
-  position: relative;
-  display: block;
-  color: black;
-}
-
-.priceSelect{
-  background-color: black;
-  background: black;
-}
-*/
-
-.price label{
+.price label {
   padding-right: 20px;
 }
 	
@@ -118,7 +106,7 @@ h4 {
   color: rgb(173, 116, 9); 
 }
 
-img {
+.image {
   display: grid;
   width: 100%;
   height: auto;
@@ -159,7 +147,7 @@ img {
   padding: 50px 0px 10px 125px;
  }
 
-footer {
+#footer {
   display: grid;
   grid-template-columns: repeat(3, 600px);
   height: 250px;
@@ -205,5 +193,4 @@ footer.contact{
     cursor: ew-resize;
     background: peru;
   }
-
 }
