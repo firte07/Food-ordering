@@ -1,156 +1,156 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <title>Ordering food</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" type="text/css" href="style.css" />
-        <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap" rel="stylesheet">
-        <script src="./script.js"></script>
-    </head>
-    <body>
-         <header>
-            <div id="banner">
-                <div class="cover">
-                  <h1>Welcome to Wolf's food</h1>
-                </div>
-                <nav class="navigation">
-                    <ul class="navigation-list">
-                      <li><a class="hyperlink" href="#banner">HOME</a></li>
-                      <li><a class="hyperlink" href="#selects">SERVICE</a></li>
-                      <li><a class="hyperlink" href="#about">ABOUT</a></li>
-                      <li><a class="hyperlink" href="#footer">CONTACT</a></li>
-                    </ul>
-                </nav>
-            </div>
-            <div id="selects" class="selects">
-              <select id="categorySelect">
-                <option value="" selected disabled hidden>Category</option>
-                <option value="salad">Salad</option>
-                <option value="soup">Soup</option>
-                <option value="drink">Drink</option>
-              </select>
-              <span class="arrow"></span>
-              <select id="sortingSelect">
-                <option value="" selected disabled hidden>Sorting</option>
-                <option value="alphabetically">Alphabetically</option>
-                <option value="ascending">Ascending</option>
-                <option value="descending">Descending</option>
-              </select>
-              <span class="arrow"></span>
-              <select id="vegetarianSelect">
-                <option value="" selected disabled hidden>Vegetarian</option>
-                <option value="salad">Salad</option>
-                <option value="soup">Soup</option>
-                <option value="drink">Desert</option>
-              </select>
-              <span class="arrow"></span>
-              <div>
-                <section class="price">
-                  <label for="priceSelect">Price</label>
-                  <span class="minprice">10$</span>
-                  <input type="range" name="priceSelect" id="priceSelect" value="55" min="10" max="100">
-                  <span class="maxprice">100$</span>
-                </section>
-              </div>  
-            </div>
-          </header>
-          <main>
-            <div class="container">
-              <div class="product image-food">
-                <img class="image" src="https://images.unsplash.com/photo-1513104890138-7c749659a591?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80"/>
-                <h2>Pizza quatro formaggi</h2><br/>
-                <h4>Price 12$</h4><br/>
-                <p class="description"> If you're looking for an ultra cheesy pizza then look no further than this classic! </p>
-              </div>
-              <div class="product image-food">
-                <img class="image" src="https://images.unsplash.com/photo-1555949258-eb67b1ef0ceb?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80"/>
-                <h2>Pasta carbonara</h2><br/>
-                <h4>Price 10$</h4><br/>
-                <p class="description"> This cheesy pasta dish is an Italian favourite. </p><br/>
-              </div>
-              <div class="product image-food">
-                <img class="image" src="https://images.unsplash.com/photo-1563379926898-05f4575a45d8?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80"/>
-                <h2>Pasta with shrimp</h2><br/>
-                <h4>Price 16$</h4><br/>
-                <p class="description"> Shrimp and pasta are a match made in heaven! </p><br/>
-              </div>
-              <div class="product image-food">
-                <img class="image" src="https://images.unsplash.com/photo-1473093295043-cdd812d0e601?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80"/>
-                <h2>Vegan pasta</h2><br/>
-                <h4>Price 13$</h4><br/>
-                <p class="description"> Best vegan pasta in the town. </p><br/>
-              </div>
-              <div class="product image-food">
-                <img class="image" src="https://images.unsplash.com/photo-1511994714008-b6d68a8b32a2?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1350&q=80"/>
-                <h2>Baked vegetables</h2><br/>
-                <h4>Price 10$</h4><br/>
-                <p class="description"> The chef's secret recipe. </p><br/>
-              </div>
-              <div class="product image-food">
-                <img class="image" src="https://images.unsplash.com/photo-1535569807835-01fd773379ad?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80"/>
-                <h2>Hamburger</h2><br/>
-                <h4>Price 8$</h4><br/>
-                <p class="description"> Close your eyes, and picture the perfect hamburger. Here it is! </p>
-              </div>
-              <div class="product image-food">
-                <img class="image" src="https://images.unsplash.com/photo-1543339308-43e59d6b73a6?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80"/>
-                <h2>Vitamin Salad</h2><br/>
-                <h4>Price 6$</h4><br/>
-                <p class="description"> Just perfect! </p><br/>
-              </div>
-              <div class="product image-food">
-                <img class="image" src="https://images.unsplash.com/photo-1544025162-d76694265947?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1349&q=80"/>
-                <h2>Ribs</h2><br/>
-                <h4>Price 19$</h4><br/>
-                <p class="description"> Baking low and slow is our secret to fall-off-the-bone oven baked ribs. </p>
-              </div>
-            </div>
-            <div id="about">
-              <article>
-                <h1 class="aboutus">ABOUT US</h1>
-                <section>
-                  <p>
-                    At Wolf’s food, our mission is simple:   
-                    enhance and educate the palate with the freshest ingredients and flavors,
-                    while surprising and exciting each guest with personal 
-                    care and service.  
-                  </p>
-                  <h2 class="ingredients">OUR INGREDIENTS</h2>
-                  <p>
-                    We are committed to uniting fresh, locally grown produce with farm-raised and wild-caught seafood to make the freshest dishes you’ll find anywhere. 
-                    Our signature raw bar offers a variety of Rhode Island oysters, crisp cherrystones, littleneck clams, and jumbo shrimp 
-                    and many of our herbs and vegetables are grown in our vegetable farm on the north end of the pond. <br/><br/>
-                  </p>
-                </section>
-              </article>
-            </div> 
-          </main>
-          <footer id="footer">
-            <div>
-              <h1 class="info">Info</h1>
-              <section>
-                <p onmouseover="handleMouseOver(this)" onmouseout="handleMouseOut(this)">Allergens</p><br/>
-                <p onmouseover="handleMouseOver(this)" onmouseout="handleMouseOut(this)">Privacy policy</p><br/>
-                <p onmouseover="handleMouseOver(this)" onmouseout="handleMouseOut(this)">Terms and conditions</p>
-              </section>
-            </div>
-            <div>
-              <h1 class="contact">Contact</h1>
-              <section>
-                <p> +40 07 24 687 881 </p><br/>
-                <p> conatct@wolf.info </p><br/>
-                <p> Stanescu 22, 400012 Cluj-Napoca</p><br/>
-              </section>
-            </div>
-            <div>
-              <h1 class="program">Program</h1>
-              <section>
-                <p>M-F 10-22</p><br/>
-                <p>S   10-23</p><br/>
-                <p>S   10-23</p><br/>           
-              </section>
-            </div>            
-          </footer>
-    </body>
+  <head>
+    <meta charset="utf-8">
+    <title>Ordering food</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap" rel="stylesheet">
+    <script src="./script.js"></script>
+  </head>
+  <body>
+    <header>
+      <div id="banner">
+        <div class="cover">
+          <h1 class="welcome">Welcome to Wolf's food</h1>
+        </div>
+        <nav class="navigation">
+          <ul class="navigation-list">
+            <li><a class="hyperlink" href="#banner">HOME</a></li>
+            <li><a class="hyperlink" href="#selects">SERVICE</a></li>
+            <li><a class="hyperlink" href="#about">ABOUT</a></li>
+            <li><a class="hyperlink" href="#footer">CONTACT</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div id="selects" class="selects">
+        <select class="category-select">
+          <option value="" selected disabled hidden>Category</option>
+          <option value="salad">Salad</option>
+          <option value="soup">Soup</option>
+          <option value="drink">Drink</option>
+        </select>
+        <span class="arrow"></span>
+        <select class="category-select">
+          <option value="" selected disabled hidden>Sorting</option>
+          <option value="alphabetically">Alphabetically</option>
+          <option value="ascending">Ascending</option>
+          <option value="descending">Descending</option>
+        </select>
+        <span class="arrow"></span>
+        <select class="category-select">
+          <option value="" selected disabled hidden>Vegetarian</option>
+          <option value="salad">Salad</option>
+          <option value="soup">Soup</option>
+          <option value="drink">Desert</option>
+        </select>
+        <span class="arrow"></span>
+        <div>
+          <section class="price">
+            <label for="priceSelect">Price</label>
+            <span class="minprice">10$</span>
+            <input type="range" name="priceSelect" id="priceSelect" value="55" min="10" max="100">
+            <span class="maxprice">100$</span>
+          </section>
+        </div>  
+      </div>
+    </header>
+    <main>
+      <div class="container">
+        <div class="product image-food">
+          <img class="image" src="https://images.unsplash.com/photo-1513104890138-7c749659a591?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80"/>
+          <h2 class="image-title">Pizza quatro formaggi</h2><br/>
+          <h4 class="food-price">Price 12$</h4><br/>
+          <p class="description"> If you're looking for an ultra cheesy pizza then look no further than this classic! </p>
+        </div>
+        <div class="product image-food">
+          <img class="image" src="https://images.unsplash.com/photo-1555949258-eb67b1ef0ceb?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80"/>
+          <h2 class="image-title">Pasta carbonara</h2><br/>
+          <h4 class="food-price">Price 10$</h4><br/>
+          <p class="description"> This cheesy pasta dish is an Italian favourite. </p><br/>
+        </div>
+        <div class="product image-food">
+          <img class="image" src="https://images.unsplash.com/photo-1563379926898-05f4575a45d8?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80"/>
+          <h2 class="image-title">Pasta with shrimp</h2><br/>
+          <h4 class="food-price">Price 16$</h4><br/>
+          <p class="description"> Shrimp and pasta are a match made in heaven! </p><br/>
+        </div>
+        <div class="product image-food">
+          <img class="image" src="https://images.unsplash.com/photo-1473093295043-cdd812d0e601?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80"/>
+          <h2 class="image-title">Vegan pasta</h2><br/>
+          <h4 class="food-price">Price 13$</h4><br/>
+          <p class="description"> Best vegan pasta in the town. </p><br/>
+        </div>
+        <div class="product image-food">
+          <img class="image" src="https://images.unsplash.com/photo-1511994714008-b6d68a8b32a2?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1350&q=80"/>
+          <h2 class="image-title">Baked vegetables</h2><br/>
+          <h4 class="food-price">Price 10$</h4><br/>
+          <p class="description"> The chef's secret recipe. </p><br/>
+        </div>
+        <div class="product image-food">
+          <img class="image" src="https://images.unsplash.com/photo-1535569807835-01fd773379ad?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80"/>
+          <h2 class="image-title">Hamburger</h2><br/>
+          <h4 class="food-price">Price 8$</h4><br/>
+          <p class="description"> Close your eyes, and picture the perfect hamburger. Here it is! </p>
+        </div>
+        <div class="product image-food">
+          <img class="image" src="https://images.unsplash.com/photo-1543339308-43e59d6b73a6?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80"/>
+          <h2 class="image-title">Vitamin Salad</h2><br/>
+          <h4 class="food-price">Price 6$</h4><br/>
+          <p class="description"> Just perfect! </p><br/>
+        </div>
+        <div class="product image-food">
+          <img class="image" src="https://images.unsplash.com/photo-1544025162-d76694265947?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1349&q=80"/>
+          <h2 class="image-title">Ribs</h2><br/>
+          <h4 class="food-price">Price 19$</h4><br/>
+          <p class="description"> Baking low and slow is our secret to fall-off-the-bone oven baked ribs. </p>
+        </div>
+      </div>
+      <div id="about">
+        <article>
+          <h1 class="aboutus">ABOUT US</h1>
+          <section>
+            <p>
+              At Wolf’s food, our mission is simple:   
+              enhance and educate the palate with the freshest ingredients and flavors,
+              while surprising and exciting each guest with personal 
+              care and service.  
+            </p>
+            <h2 class="ingredients">OUR INGREDIENTS</h2>
+            <p>
+              We are committed to uniting fresh, locally grown produce with farm-raised and wild-caught seafood to make the freshest dishes you’ll find anywhere. 
+              Our signature raw bar offers a variety of Rhode Island oysters, crisp cherrystones, littleneck clams, and jumbo shrimp 
+              and many of our herbs and vegetables are grown in our vegetable farm on the north end of the pond. <br/><br/>
+            </p>
+          </section>
+        </article>
+      </div> 
+    </main>
+    <footer id="footer">
+      <div>
+        <h1 class="info">Info</h1>
+        <section>
+          <p onmouseover="handleMouseOver(this)" onmouseout="handleMouseOut(this)">Allergens</p><br/>
+          <p onmouseover="handleMouseOver(this)" onmouseout="handleMouseOut(this)">Privacy policy</p><br/>
+          <p onmouseover="handleMouseOver(this)" onmouseout="handleMouseOut(this)">Terms and conditions</p>
+        </section>
+      </div>
+      <div>
+        <h1 class="contact">Contact</h1>
+        <section>
+          <p> +40 07 24 687 881 </p><br/>
+          <p> conatct@wolf.info </p><br/>
+          <p> Stanescu 22, 400012 Cluj-Napoca</p><br/>
+        </section>
+      </div>
+      <div>
+        <h1 class="program">Program</h1>
+        <section>
+          <p>M-F 10-22</p><br/>
+          <p>S   10-23</p><br/>
+          <p>S   10-23</p><br/>           
+        </section>
+      </div>            
+    </footer>
+  </body>
 </html>
